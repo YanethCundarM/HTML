@@ -1,0 +1,44 @@
+body{
+    margin:200px;
+    
+}
+.grid-container-row{
+    
+display:grid;
+grid-template-columns: 100px 100px 100px;
+grid-template-rows: 100px 100px;
+grid-template-areas: 
+"a  b c"
+"d  e f";
+gap: 20px;
+margin: 10px;
+padding: 50px;
+
+}
+.color{
+    background-color: rgb(72, 72, 72);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    color:white;
+}
+.a{
+    grid-area: a;
+}
+.b{
+    grid-area: b;
+}
+.c{
+    grid-area: c;
+       
+}
+.d{
+    grid-area: d;
+}
+.e{
+    grid-area: e;
+}
+.f{
+    grid-area: f;
+ }

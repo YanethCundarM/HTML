@@ -1,0 +1,138 @@
+body{
+    margin: 100px 200px;
+}
+.grid{
+display:grid;
+grid-template-columns:  200px auto;
+grid-template-rows: 150px auto 100px;
+grid-template-areas: 
+"a  a "
+"b  c "
+"b  d ";
+gap: 20px;
+background-color: gainsboro;
+
+}
+.color{
+    background-color: gainsboro;   
+}
+
+.a{
+    
+    grid-area: a;
+}
+.uno{
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    background-color: rgb(59, 58, 58);
+    color: white;
+    font-size: 20px;
+    padding: 20px;  
+}
+.box-1{
+    width: 400px;
+    height: 100px;
+}
+
+.box-2{
+    width: 200px;
+    height: 100px;
+}
+.b{
+    grid-area: b;
+    padding: 20px;
+}
+
+.c{
+    grid-area: c;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items:center;
+    width: 600px;
+    height: 450px;
+    margin: auto;
+    margin-top: 50px;
+    border: 30px solid black;
+}
+.caja{
+    width: 400px;
+    height: 400px;
+    background-color:gainsboro; 
+    display: flex;
+    justify-content: end;        
+}
+.caja1{
+    margin: auto;
+    width: 120px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.letra_e{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: end;    
+}
+.letra_ea{
+    height: 300px ;   
+}
+.letra_f{
+    height:200px ;    
+    display: flex;    
+    flex-direction: column;    
+    justify-content: flex-end;    
+    align-items: center;       
+}
+.letra_fa{
+    background-color:black;
+    height: 320px ;
+}
+.letra_g{
+    height: 400px;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+.d{
+    grid-area: d;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
